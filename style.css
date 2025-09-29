@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+img {
+    width:15%;
+    height:auto;
+    margin: 10px 0;
+}
+@media (max-width: 375px) {
+  .wheel-container {
+    width: 250px;
+    height: 250px; /* 移动端缩小转盘 */
+  }
+  .wheel-text {
+    width: 80px;
+    font-size: 12px; /* 适配小转盘文字 */
+  }
+}
